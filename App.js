@@ -1,18 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import Login from './src/screen/Login';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import List from './src/screen/List'
+import { StatusBar } from 'expo-status-bar'
 
-export default function App() {
+const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Login />
+     <List/>
     </SafeAreaView>
-  );
+  )
 }
 
+export default App
+
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-   
-  },
-});
+  container:{
+    flex:1,
+
+  }
+})

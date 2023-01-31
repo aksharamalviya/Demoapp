@@ -4,7 +4,7 @@ import React from 'react'
 const Details = () => {
   return (
     <View>
-      <Text>hello akshu detail</Text>c
+      <Text>hello</Text>c
     </View>
   )
 }
